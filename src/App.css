@@ -18,5 +18,17 @@
   margin-top: 50px;
 }
 
+.add-btn {
+  width: 212px;
+}
+
+.empty-todo-text {
+  padding: 10px;
+  border: 2px solid #dd9612;
+  border-radius: 10px;
+  max-width: 200px;
+  margin: 30px auto;
+}
+
 
 

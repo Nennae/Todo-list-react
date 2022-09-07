@@ -1,10 +1,16 @@
+import * as React from 'react';
+
 const AddTask = () => {
       return (
-            <form className="add-form">
+            <>
+            <form className="add-form" onChange="submitTask">
                   <label htmlFor="add-input">Add Task</label>
                   <input type="text" placeholder="Write here"></input>
-                  <input type="submit" onChange="submitTask"></input>
             </form>
+            <button className="add-btn" type="submit" onChange="submitTask">
+            Submit
+      </button>
+      </>
       )
 }
 
